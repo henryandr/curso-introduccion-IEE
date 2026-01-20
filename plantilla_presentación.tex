@@ -17,6 +17,7 @@
 
 % Packages
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{hyperref}
 \usepackage{tikz} 
 \usepackage{booktabs}
@@ -26,7 +27,7 @@
 \addtobeamertemplate{frametitle}{}{%
     \begin{tikzpicture}[remember picture,overlay]
         \node[anchor=north east, xshift=-0.3cm, yshift=0cm, inner sep=0pt] at (current page.north east) {
-            \includegraphics[height=1cm, keepaspectratio]{logo_white.png}
+            \includegraphics[height=1cm, keepaspectratio]{logo_UPB.jpg}
         };
     \end{tikzpicture}%
 }
@@ -35,151 +36,363 @@
 \newcommand{\FirstLastPageLayout}{
     \begin{tikzpicture}[remember picture,overlay]
         \node[anchor=north east, xshift=-0.3cm, yshift=0cm, inner sep=0pt] at (current page.north east) {
-            \includegraphics[height=1cm, keepaspectratio]{logo.jpg}
+            \includegraphics[height=1cm, keepaspectratio]{logo_UPB.jpg}
         };
         \node[anchor=south west, xshift=0.5cm, yshift=0.5cm] at (current page.south west) {
-            \textcolor{MyOrange}{\footnotesize Prague University of Economics and Business}
+            \textcolor{MyOrange}{\footnotesize Universidad Pontificia Bolivariana}
         };
     \end{tikzpicture}
 }
 
 % --- Info ---
-\title[Title]{Title of your presentation} % 
-\subtitle{Subtitle of your presentation} % 
-\author{Your Name} % 
-\institute[]{Department of International Economic Relations} % 
+\title[Historia IEE]{Historia de la Ingeniería Eléctrica y Electrónica}
+\subtitle{De los fundamentos a la era digital}
+\author{Curso de Introducción a la IEE}
+\institute[UPB]{Universidad Pontificia Bolivariana}
 \date{\today}
 
 \begin{document}
 
 % --- Slide 1: Title Page ---
 \begin{frame}
-    \FirstLastPageLayout % 
+    \FirstLastPageLayout
     \titlepage
 \end{frame}
 
-% --- Slide 2: Contents ---
-\begin{frame}{Contents} % 
+% --- Slide 2: ¿Qué es ingeniería? ---
+\begin{frame}{¿Qué es ingeniería?}
     \begin{itemize}
-        \item Motivation % 
-        \item Research gap \& Aim of the paper % 
-        \item Theoretical background
-        \item Methodology
-        \item Results \& Discussion
-        \item Further research \& Limitations  
+        \item La ingeniería es la disciplina que \textbf{diseña, construye y opera soluciones} usando ciencia, matemáticas y experiencia
+        \item Considera: \textbf{seguridad, costo, impacto social y confiabilidad}
+        \item A medida que las sociedades crecen, la ingeniería pasa de ``obras aisladas'' a \textbf{sistemas}
+        \begin{itemize}
+            \item Redes de agua, energía, comunicaciones
+            \item Un fallo puede afectar a millones de personas
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
-% --- Motivation ---
-\begin{frame}{Motivation} % 
+% ===== HISTORIA GENERAL DE LA INGENIERÍA =====
+
+% --- Slide 3: Ingeniería temprana ---
+\begin{frame}{Ingeniería temprana (≈ 10.000 a.C. -- 500 a.C.)}
     \begin{itemize}
-        \item \textbf{XYZ} – your text % 
-        
-        \vspace{0.2cm}
-        \footnotesize{\textit{(...your text)}} % 
-        \vspace{0.2cm}
-        \normalsize
-        
-        \item \textbf{XYZ} - your text % 
+        \item \textbf{Revolución agrícola (≈ 10.000 a.C.):}
         \begin{itemize}
-            \item tbc % 
+            \item Aparición de riego, almacenamiento y planificación del territorio
+            \item Ingeniería como \textbf{gestión de recursos}
         \end{itemize}
         
-        \item ... % 
-      
-
+        \item \textbf{Mesopotamia y Egipto (≈ 3500--1500 a.C.):}
+        \begin{itemize}
+            \item Canales, diques, medición de tierras
+            \item Construcción masiva: obra + logística + mantenimiento
+        \end{itemize}
+        
+        \item \textbf{China, el Indo y Mesoamérica:}
+        \begin{itemize}
+            \item Consolidación de hidráulica, urbanismo y metalurgia
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
-% --- Research gap \& Aim of the paper ---
-\begin{frame}{Research gap \& Aim of the paper} % 
+% --- Slide 4: Mundo clásico ---
+\begin{frame}{Mundo clásico e ``ingeniería pública'' (≈ 500 a.C. -- 500 d.C.)}
     \begin{itemize}
-        \item To insert a table...
+        \item \textbf{Grecia:}
+        \begin{itemize}
+            \item Aporte de matemáticas y mecánica como lenguaje para modelar
+        \end{itemize}
+        
+        \item \textbf{Roma:}
+        \begin{itemize}
+            \item Escala la ingeniería a infraestructura masiva
+            \item \textbf{Caminos, puentes, acueductos}
+            \item \textbf{Impacto social:} comercio, salud pública, expansión urbana
+        \end{itemize}
     \end{itemize}
-    \begin{table}[h!]
-\centering
-\caption{Summary statistics of XX} \label{HHI_table}
-\begin{tabular}{lrrr}
-\hline
-Country & Mean X & Min X & Max X \\
-\hline
-AT & 0.29 & 0.28 & 0.30  \\
-BE & 0.27 & 0.25 & 0.29 \\
-BG & 0.23 & 0.20 & 0.28 \\
-\hline
-\multicolumn{4}{@{}l} {\tiny Source: own elaboration based on }
-\end{tabular}
-\end{table}
 \end{frame}
 
-% --- Theoretical background ---
-\begin{frame}{Theoretical background} % 
+% --- Slide 5: De técnica artesanal a ciencia ---
+\begin{frame}{De técnica artesanal a ciencia y profesión (≈ 1500--1900)}
     \begin{itemize}
-        \item To insert an equation...
+        \item \textbf{Renacimiento y Revolución Científica:}
+        \begin{itemize}
+            \item Medición y experimentación sistemática
+        \end{itemize}
+        
+        \item \textbf{Revolución Industrial (≈ 1700--1900):}
+        \begin{itemize}
+            \item Fábricas, transporte y estandarización
+            \item Nace la ingeniería moderna como profesión
+        \end{itemize}
+        
+        \item \textbf{Nueva realidad:}
+        \begin{itemize}
+            \item Más potencia → más productividad
+            \item Más riesgo → necesidad de normas e inspección
+        \end{itemize}
     \end{itemize}
-    \begin{equation}
-        Y = \beta_0 + \beta_1 X + \epsilon
-    \end{equation}
 \end{frame}
 
-% --- Methodology ---
-\begin{frame}{Methodology} % 
+% ===== HISTORIA DE LA INGENIERÍA ELÉCTRICA Y ELECTRÓNICA =====
+
+% --- Slide 6: Primeros fundamentos ---
+\begin{frame}{Primeros fundamentos de la electricidad (1600--1831)}
     \begin{itemize}
-        \item Your text
+        \item \textbf{1600 -- William Gilbert:} sistematiza magnetismo y electricidad
+        
+        \item \textbf{1752 -- Benjamin Franklin:} 
+        \begin{itemize}
+            \item Experimentos con electricidad y \textbf{pararrayos}
+            \item Primer gran hito de \textbf{seguridad eléctrica} con impacto social
+        \end{itemize}
+        
+        \item \textbf{1800 -- Alessandro Volta:}
+        \begin{itemize}
+            \item \textbf{Pila voltaica}: fuente controlable de corriente continua
+        \end{itemize}
+        
+        \item \textbf{1831 -- Michael Faraday:}
+        \begin{itemize}
+            \item \textbf{Inducción electromagnética}
+            \item Principio de generadores y motores
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
-% --- Data ---
-\begin{frame}{Data} % 
+% --- Slide 7: Maxwell ---
+\begin{frame}{La teoría que habilita la ingeniería (1864)}
     \begin{itemize}
-        \item Your text
+        \item \textbf{1864 -- James Clerk Maxwell:}
+        \begin{itemize}
+            \item Ecuaciones del electromagnetismo
+            \item Unifica electricidad, magnetismo y luz
+        \end{itemize}
+        
+        \item \textbf{Impacto técnico:}
+        \begin{itemize}
+            \item Permite diseñar con modelos, no solo por prueba y error
+        \end{itemize}
+        
+        \item \textbf{Impacto social:}
+        \begin{itemize}
+            \item Acelera telecomunicaciones, energía y tecnología industrial
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
-% --- Results \& Discussion ---
-\begin{frame}{Results \& Discussion} % 
+% --- Slide 8: Guerra de corrientes ---
+\begin{frame}{Electrificación y ``guerra de corrientes'' (1879--1890s)}
     \begin{itemize}
-        \item To include a figure...
+        \item \textbf{1879--1882 -- Thomas Edison:}
+        \begin{itemize}
+            \item Iluminación y sistemas urbanos de \textbf{corriente continua (DC)}
+        \end{itemize}
+        
+        \item \textbf{1880s--1890s -- Nikola Tesla / George Westinghouse:}
+        \begin{itemize}
+            \item Sistemas de \textbf{corriente alterna (AC)}
+            \item Transmisión eficiente con transformadores
+        \end{itemize}
+        
+        \item \textbf{Impacto social:}
+        \begin{itemize}
+            \item Iluminación masiva y electrificación de industrias
+            \item Ciudades nocturnas y nuevos empleos técnicos
+        \end{itemize}
     \end{itemize}
-
-    \begin{figure}
-                \caption{XYZ}
-             
-                \includegraphics[width=7cm]{PL_GDP.pdf}
-                
-                {\tiny Source: Authors' calculations}
-            \end{figure}
-
 \end{frame}
 
-% --- Further research \& Limitations ---
-\begin{frame}{Further research \& Limitations} % 
+% --- Slide 9: Redes eléctricas ---
+\begin{frame}{Redes eléctricas: nace el ``sistema'' de potencia (≈ 1890--hoy)}
     \begin{itemize}
-        \item Your text
+        \item Con la red eléctrica aparece un concepto central:
+        \begin{itemize}
+            \item \textbf{Generación -- Transmisión -- Distribución -- Protección}
+            \item Sistema interdependiente y complejo
+        \end{itemize}
+        
+        \item \textbf{Impacto social:}
+        \begin{itemize}
+            \item La electricidad se vuelve infraestructura crítica
+            \item Afecta: salud, transporte, comunicaciones, economía
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
-% --- References ---
+% --- Slide 10: Comunicaciones ---
+\begin{frame}{Comunicaciones: del telégrafo a la radio (≈ 1830--1930)}
+    \begin{itemize}
+        \item \textbf{Siglo XIX -- Telégrafo:}
+        \begin{itemize}
+            \item Redes de señal a larga distancia
+        \end{itemize}
+        
+        \item \textbf{Primer tercio del siglo XX -- Radio:}
+        \begin{itemize}
+            \item Comunicación inalámbrica masiva
+        \end{itemize}
+        
+        \item \textbf{Laboratorios industriales influyentes:}
+        \begin{itemize}
+            \item Ejemplo: \textbf{Bell Labs}
+            \item Convierten teoría en tecnología escalable
+        \end{itemize}
+        
+        \item \textbf{Impacto social:}
+        \begin{itemize}
+            \item Información en tiempo real y coordinación global
+        \end{itemize}
+    \end{itemize}
+\end{frame}
 
-\begin{frame}[allowframebreaks]{References}
+% --- Slide 11: Nace la electrónica ---
+\begin{frame}{Nace la electrónica: controlar señales (1904--1950)}
+    \begin{itemize}
+        \item \textbf{1904 -- John A. Fleming:}
+        \begin{itemize}
+            \item Diodo de vacío (rectificación)
+        \end{itemize}
+        
+        \item \textbf{1906 -- Lee de Forest:}
+        \begin{itemize}
+            \item Triodo (amplificación)
+        \end{itemize}
+        
+        \item \textbf{Impacto técnico:}
+        \begin{itemize}
+            \item Amplificar y procesar señales (audio, radio, telefonía)
+        \end{itemize}
+        
+        \item \textbf{Impacto social:}
+        \begin{itemize}
+            \item Medios masivos y telecomunicaciones modernas
+        \end{itemize}
+    \end{itemize}
+\end{frame}
 
-\tiny
-\bibliography{references}
-\bibliographystyle{apalike}
+% --- Slide 12: Semiconductor ---
+\begin{frame}{Semiconductor, miniaturización y era digital (1947--1971)}
+    \begin{itemize}
+        \item \textbf{1947 -- Transistor:}
+        \begin{itemize}
+            \item Bardeen, Brattain, Shockley (Bell Labs)
+        \end{itemize}
+        
+        \item \textbf{1958--1959 -- Circuito integrado:}
+        \begin{itemize}
+            \item Jack Kilby / Robert Noyce
+        \end{itemize}
+        
+        \item \textbf{1971 -- Microprocesador:}
+        \begin{itemize}
+            \item Computación en un chip
+        \end{itemize}
+        
+        \item \textbf{Impacto social:}
+        \begin{itemize}
+            \item Automatización, computación personal
+            \item Control industrial, medicina moderna
+            \item Telecomunicaciones digitales
+        \end{itemize}
+    \end{itemize}
+\end{frame}
 
+% --- Slide 13: Seguridad eléctrica ---
+\begin{frame}{Seguridad eléctrica/electrónica (siglo XX--hoy)}
+    \begin{block}{La ingeniería madura cuando integra protección + normas + cultura operativa:}
+    \end{block}
+    
+    \begin{itemize}
+        \item \textbf{Puesta a tierra:} reduce tensiones peligrosas en fallas
+        \item \textbf{Fusibles e interruptores:} limitan sobrecorriente
+        \item \textbf{Interruptor diferencial (RCD/GFCI):} detecta fuga a tierra
+        \item \textbf{Relés de protección:} aislan fallas, evitan cascadas
+        \item \textbf{Normas y estandarización:} IEC, IEEE
+        \item \textbf{Prácticas seguras:} LOTO, EPP, análisis de riesgo
+    \end{itemize}
+    
+    \vspace{0.2cm}
+    \small{\textit{Muchos ``desastres evitados'' no son noticias; son consecuencia de protecciones y normas que impiden errores repetidos.}}
+\end{frame}
+
+% ===== FALLOS EMBLEMÁTICOS =====
+
+% --- Slide 14: Fallos emblemáticos (infraestructura) ---
+\begin{frame}{Fallos emblemáticos: infraestructura y sistemas}
+    \begin{itemize}
+        \item \textbf{1940 -- Puente Tacoma Narrows (EE. UU.):}
+        \begin{itemize}
+            \item Colapso por vibración inducida por viento
+            \item \textit{Lección:} diseñar comportamiento dinámico, no solo resistencia
+        \end{itemize}
+        
+        \item \textbf{1977 -- Apagón de Nueva York:}
+        \begin{itemize}
+            \item Falla + eventos encadenados → pérdida masiva de suministro
+            \item \textit{Lección:} coordinación de protecciones y resiliencia
+        \end{itemize}
+        
+        \item \textbf{2003 -- Apagón del noreste EE. UU./Canadá:}
+        \begin{itemize}
+            \item Monitoreo deficiente + condiciones operativas → cascada
+            \item \textit{Lección:} observabilidad, automatización, mantenimiento
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% --- Slide 15: Fallos emblemáticos (alto riesgo) ---
+\begin{frame}{Fallos emblemáticos: alto riesgo (espacio/nuclear/software)}
+    \begin{itemize}
+        \item \textbf{1967 -- Incendio Apollo 1:} diseño de prueba y materiales
+        
+        \item \textbf{1975--1987 -- Therac-25:} sobredosis por fallos de software
+        
+        \item \textbf{1986 -- Chernóbil:} prueba insegura + diseño deficiente
+        
+        \item \textbf{1986 -- Challenger:} falla de junta + decisiones bajo presión
+        
+        \item \textbf{1996 -- Ariane 5 Vuelo 501:} error de software no revalidado
+        
+        \item \textbf{2011 -- Fukushima Daiichi:} evento extremo supera defensas
+    \end{itemize}
+    
+    \vspace{0.2cm}
+    \small{\textit{Lección común: cultura de seguridad, redundancia, validación y comunicación técnica.}}
+\end{frame}
+
+% --- Slide 16: Cierre ---
+\begin{frame}{Lecciones para Ing. Eléctrica y Electrónica}
+    \begin{enumerate}
+        \item La historia avanza cuando pasamos de ``hacer funcionar'' a \textbf{hacer funcionar de forma segura y repetible}
+        
+        \item En eléctrica y electrónica, el riesgo se controla con:
+        \begin{itemize}
+            \item Protecciones (breaker/diferencial/tierra/relés)
+            \item Normas, pruebas y procedimientos
+        \end{itemize}
+        
+        \item El impacto social es doble:
+        \begin{itemize}
+            \item Habilitamos infraestructura (energía y comunicación)
+            \item Debemos evitar que su falla produzca daño masivo
+        \end{itemize}
+        
+        \item \textbf{Mensaje final:} la seguridad es parte del diseño, no una etapa posterior
+    \end{enumerate}
 \end{frame}
 
 % --- Final page ---
 \begin{frame}[c]
-    \FirstLastPageLayout % 
+    \FirstLastPageLayout
     \centering
-    \Huge \textcolor{MyOrange}{Thank you for your attention} % 
+    \Huge \textcolor{MyOrange}{Gracias por su atención}
     
     \vspace{1.5cm}
     \normalsize
-    \textbf{Your Name} \\ % 
-    \href{mailto:your.email@vse.cz}{your.email@vse.cz} % 
+    \textbf{Curso de Introducción a la IEE} \\
+    Universidad Pontificia Bolivariana
 \end{frame}
-
 
 \end{document}
