@@ -163,3 +163,76 @@ Si quieres, puedo convertir esto en:
 
 - **títulos y bullets exactos por diapositiva** (formato “slide-ready”), o
 - un **guion hablado** de 5–7 minutos asociado a las 15 diapositivas.
+
+## Estructura de la presentación
+
+Esta presentación cuenta con **17 diapositivas** organizadas de la siguiente manera:
+
+1. **Diapositiva de título**: Introducción al tema
+2. **¿Qué es ingeniería?**: Concepto central y evolución hacia sistemas
+3. **Ingeniería temprana**: Desde la revolución agrícola hasta las primeras civilizaciones
+4. **Mundo clásico**: Grecia y Roma - matemáticas y obras públicas
+5. **De técnica a ciencia**: Renacimiento y Revolución Industrial
+6. **Primeros fundamentos eléctricos**: De Gilbert a Faraday (1600-1831)
+7. **Maxwell**: Las ecuaciones del electromagnetismo (1864)
+8. **Guerra de corrientes**: Edison vs Tesla/Westinghouse (1879-1890s)
+9. **Redes eléctricas**: El nacimiento del sistema de potencia
+10. **Comunicaciones**: Del telégrafo a la radio
+11. **Nace la electrónica**: Tubos de vacío y amplificación
+12. **Era digital**: Transistor, circuito integrado y microprocesador
+13. **Seguridad eléctrica**: Evolución de las prácticas de protección
+14. **Fallos emblemáticos 1**: Infraestructura y sistemas
+15. **Fallos emblemáticos 2**: Alto riesgo (espacial, nuclear, software)
+16. **Lecciones finales**: Aprendizajes para la Ingeniería Eléctrica y Electrónica
+17. **Cierre**: Agradecimiento final
+
+---
+
+## Notas adicionales para el presentador
+
+### Enfoque pedagógico
+- La presentación sigue un orden cronológico que facilita la comprensión
+- Cada sección conecta el avance técnico con su impacto social
+- Los casos de fallos sirven para reforzar la importancia de las normas de seguridad
+
+### Elementos visuales sugeridos
+- **Línea de tiempo**: Útil para las diapositivas 6-12 (evolución eléctrica/electrónica)
+- **Imágenes históricas**: Retratos de personajes clave (Franklin, Faraday, Maxwell, Edison, Tesla)
+- **Diagramas técnicos**: Pila voltaica, generador, transformador, transistor
+- **Fotografías de fallos**: Tacoma Narrows, equipos del Therac-25 (si están disponibles)
+- **Esquemas de seguridad**: GFCI, puesta a tierra, sistemas de protección
+
+### Tiempo estimado de presentación
+- **Introducción** (diapositivas 1-2): 3 minutos
+- **Historia general** (diapositivas 3-5): 5 minutos
+- **Historia IEE** (diapositivas 6-13): 15 minutos
+- **Fallos** (diapositivas 14-15): 7 minutos
+- **Conclusiones** (diapositiva 16): 3 minutos
+- **Total**: ~33 minutos + preguntas
+
+---
+
+## Referencias bibliográficas sugeridas
+
+Para profundizar en los temas presentados, se recomienda consultar:
+
+1. **Historia general de la ingeniería:**
+   - Kirby, R. S., et al. (1990). *Engineering in History*. Dover Publications.
+   - Petroski, H. (1996). *Invention by Design: How Engineers Get from Thought to Thing*. Harvard University Press.
+
+2. **Historia de la ingeniería eléctrica:**
+   - Brittain, J. E. (1985). "Electrical Engineering Hall of Fame". *Proceedings of the IEEE*.
+   - Hughes, T. P. (1983). *Networks of Power: Electrification in Western Society, 1880-1930*. Johns Hopkins University Press.
+
+3. **Seguridad eléctrica:**
+   - IEEE Standards Association. *IEEE Guide for Safety in AC Substation Grounding*.
+   - NFPA 70E. *Standard for Electrical Safety in the Workplace*.
+
+4. **Análisis de fallos:**
+   - Petroski, H. (1992). *To Engineer is Human: The Role of Failure in Successful Design*. Vintage Books.
+   - Leveson, N. G. (1995). *Safeware: System Safety and Computers*. Addison-Wesley.
+
+---
+
+**Documento preparado para el Curso de Introducción a la Ingeniería Eléctrica y Electrónica**  
+**Universidad Pontificia Bolivariana**
