@@ -93,13 +93,14 @@ Esta presentación está diseñada para:
 El diseño visual puede personalizarse modificando las siguientes líneas en el archivo `.tex`:
 
 ```latex
-% Cambiar el color principal (actualmente naranja UPB)
+% Cambiar el color principal (actualmente naranja UPB: RGB 230, 85, 10)
 \definecolor{MyOrange}{RGB}{230, 85, 10}
 
-% Modificar información del título
-\title[Historia IEE]{Título personalizado}
-\subtitle{Subtítulo personalizado}
-\author{Nombre del autor}
+% Modificar información del título (valores actuales mostrados)
+\title[Historia IEE]{Historia de la Ingeniería Eléctrica y Electrónica}
+\subtitle{De los fundamentos a la era digital}
+\author{Curso de Introducción a la IEE}
+\institute[UPB]{Universidad Pontificia Bolivariana}
 ```
 
 ## 📖 Referencias
